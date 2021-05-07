@@ -11,7 +11,7 @@ export default function ContactUs() {
       <PageMeta title="About Crema React" />
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Crema Next.js!</a>
+          Welcome to <a href="https://nextjs.org">Crema Next.js</a>
         </h1>
 
         <p className={styles.description}>
