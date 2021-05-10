@@ -9,12 +9,6 @@ const AppFixedFooter = (props) => {
 
   const useStyles = makeStyles((theme) => ({
     footer: {
-      position: 'fixed',
-      left: 'auto',
-      bottom: 0,
-      zIndex: 99,
-      margin: '0',
-      width: '100%',
       backgroundColor: theme.palette.background.paper,
       color: theme.palette.text.primary,
       [theme.breakpoints.up('lg')]: {
@@ -44,22 +38,7 @@ const AppFixedFooter = (props) => {
 
   return (
     <>
-      {footer && footerType === 'fixed' ? (
-        <Box className={clsx(classes.footer, 'footer fixed-footer')}>
-          <Box
-            className='footerContainer'
-            alignItems='center'
-            flexDirection='row'
-            display='flex'>
-            <Box>Copy right @crema 2020</Box>
-            <Box ml='auto'>
-              <Button className={classes.btnRoot} color='primary'>
-                Buy Now
-              </Button>
-            </Box>
-          </Box>
-        </Box>
-      ) : null}
+      {}
     </>
   );
 };

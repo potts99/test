@@ -9,13 +9,11 @@ const AppFooter = (props) => {
 
   const useStyles = makeStyles((theme) => ({
     footer: {
-      margin: '20px -20px 0',
       backgroundColor: theme.palette.background.paper,
       color: theme.palette.text.primary,
       [theme.breakpoints.up('md')]: {
         marginLeft: '-32px',
         marginRight: '-32px',
-        marginTop: 30,
       },
       '& .footerContainer': {
         padding: '5px 20px',
@@ -38,26 +36,7 @@ const AppFooter = (props) => {
 
   return (
     <>
-      {footer &&
-      footerType === 'fluid' &&
-      navStyle !== 'h-default' &&
-      navStyle !== 'hor-light-nav' &&
-      navStyle !== 'hor-dark-layout' ? (
-        <Box className={clsx(classes.footer, 'footer')}>
-          <Box
-            className='footerContainer'
-            alignItems='center'
-            flexDirection='row'
-            display='flex'>
-            <Box>Copy right @crema 2020</Box>
-            <Box ml='auto'>
-              <Button className={classes.btnRoot} color='primary'>
-                Buy Now
-              </Button>
-            </Box>
-          </Box>
-        </Box>
-      ) : null}
+      {null}
     </>
   );
 };
