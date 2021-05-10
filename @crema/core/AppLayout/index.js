@@ -23,9 +23,6 @@ const useStyle = makeStyles(() => ({
       display: 'flex',
       flexDirection: 'column',
     },
-    '& .main-content-view': {
-      padding: 20,
-    },
     '& .footer': {
       marginRight: 0,
       marginLeft: 0,

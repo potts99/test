@@ -41,11 +41,11 @@ const useStyles = makeStyles((theme) => {
         width: `calc(100vw - 21.6rem)`,
       },
       '& > .scrollbar-container': {
-        padding: '20px 20px 0',
         display: 'flex',
         flexDirection: 'column',
         [theme.breakpoints.up('md')]: {
-          padding: '30px 32px 0',
+          padding: '0',
+          height: '100%',
         },
       },
     },
@@ -53,11 +53,11 @@ const useStyles = makeStyles((theme) => {
       width: '100vw',
       paddingBottom: 10,
       '& > .scrollbar-container': {
-        padding: '20px 20px 0',
         display: 'flex',
         flexDirection: 'column',
         [theme.breakpoints.up('md')]: {
-          padding: '30px 32px 0',
+          padding: '0',
+          height: '100%',
         },
       },
     },
@@ -76,6 +76,7 @@ const useStyles = makeStyles((theme) => {
         },
         '& $mainContainer': {
           width: '100%',
+          height: '100%',
         },
         '& .app-bar': {
           width: 'calc(100% - 19rem)',

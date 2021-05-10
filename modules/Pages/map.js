@@ -18,7 +18,7 @@ const PageOne = () => {
         zoom={13}
         minZoom={7}
         scrollWheelZoom={true}
-        style={{ height: 800, width: "100%" }}
+        style={{ height: "99vh", width: "100%" }}
       >
         <TileLayer
           attribution='&copy;'
