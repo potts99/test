@@ -26,11 +26,9 @@ const AppLogo = () => {
         <img
           className={classes.logo}
           src={
-            themeMode === ThemeMode.DARK
-              ? '/images/logo-white.png'
-              : '/images/logo.png'
+            themeMode === ThemeMode.DARK ? '/logo_black.svg' : '/logo_black.svg'
           }
-          alt='crema-logo'
+          alt='logo'
         />
       </Hidden>
       <Hidden xsDown>

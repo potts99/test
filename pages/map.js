@@ -1,6 +1,6 @@
 import React from 'react';
 import AppPage from '../@crema/hoc/AppPage';
-import asyncComponent from '../@crema/utility/asyncComponent';
+// import asyncComponent from '../@crema/utility/asyncComponent';
 import dynamic from 'next/dynamic';
 
 const MapWithNoSSR = dynamic(

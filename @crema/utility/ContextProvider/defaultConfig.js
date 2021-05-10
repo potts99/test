@@ -132,7 +132,7 @@ const defaultConfig = {
     },
   },
   themeStyle: ThemeStyle.MODERN,
-  themeMode: ThemeMode.SEMI_DARK,
+  themeMode: ThemeMode.DARK,
   navStyle: NavStyle.BIT_BUCKET,
   layoutType: LayoutType.FULL_WIDTH,
   footerType: FooterType.FLUID,

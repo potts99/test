@@ -37,7 +37,8 @@ const useStyles = makeStyles((theme) => ({
   },
   logoRoot: {
     cursor: 'pointer',
-    width: 30,
+    width: 100,
+    height: 50,
     marginLeft: 5,
   },
 }));
@@ -56,8 +57,8 @@ export default function PrimarySearchAppBar(props) {
           aria-label='show 17 new notifications'>
           <img
             className={classes.logoRoot}
-            src={'/images/logo-icon-large.png'}
-            alt='crema-logo'
+            src={'/logo_white.svg'}
+            alt='logo'
           />
         </IconButton>
       </Box>
