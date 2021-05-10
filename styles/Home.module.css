@@ -120,3 +120,7 @@
     flex-direction: column;
   }
 }
+
+.grayscale-invert {
+  filter: grayscale(100%) invert(1);
+}

@@ -9,7 +9,6 @@ const useStyles = makeStyles((theme) => {
       position: 'relative',
       backgroundColor: theme.palette.background.default,
       paddingTop: 56,
-
       [theme.breakpoints.up('lg')]: {
         paddingTop: 0,
       },
@@ -31,6 +30,7 @@ const useStyles = makeStyles((theme) => {
     mainContent: {
       flex: 1,
       display: 'flex',
+      filter: `grayscale(100%) invert(1);`,
     },
     mainContainer: {
       width: `calc(100vw - 19rem)`,
