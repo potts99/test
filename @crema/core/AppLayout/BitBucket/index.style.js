@@ -30,7 +30,6 @@ const useStyles = makeStyles((theme) => {
     mainContent: {
       flex: 1,
       display: 'flex',
-      filter: `grayscale(100%) invert(1);`,
     },
     mainContainer: {
       width: `calc(100vw - 19rem)`,

@@ -121,6 +121,6 @@
   }
 }
 
-.grayscale-invert {
+.grayscaleInvert {
   filter: grayscale(100%) invert(1);
 }
