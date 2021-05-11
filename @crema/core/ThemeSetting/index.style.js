@@ -13,9 +13,9 @@ const useStyles = makeStyles((theme) => ({
   },
   customizerButton: {
     borderRadius: '30px 0 0 30px',
-    backgroundColor: orange[500],
+    backgroundColor: theme.palette.primary.main,
     '&:hover': {
-      backgroundColor: orange[700],
+      backgroundColor: theme.palette.primary.main[700],
     },
     '& button': {
       borderRadius: '30px 0 0 30px',

@@ -1,51 +1,33 @@
 import styles from '../../styles/Home.module.css';
-import Box from "@material-ui/core/Box";
-import { Button } from "@material-ui/core";
-import React from "react";
-import PageMeta from "../../@crema/core/PageMeta";
+import Box from '@material-ui/core/Box';
+import React from 'react';
+import PageMeta from '../../@crema/core/PageMeta';
 
 export default function ContactUs() {
   return (
     <div className={styles.container}>
-
-      <PageMeta title="About Crema React" />
+      <PageMeta title='About Crema React' />
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Crema Next.js</a>
+          Welcome to <a href='https://nextjs.org'>Crema Next.js</a>
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{" "}
-          <code className={styles.code}>pages/about-us.js</code>
+          Get started by editing pages/about-us.js
         </p>
 
         <div className={styles.grid}>
-          Presenting Crema, the all in one package which uses React Hooks to write components more intuitively without
-          using classes. Crema is purely based on Material UI components and follows Google’s Material Design
-          guidelines. It is integrated with Redux and Context API for state management hence making it fast and
-          reliable. It is fully RTL supported and multi-lingual. It uses fake API creator ‘axios-mock-adaptor’ to fetch
-          Data hence making it very easy to integrate with real Server. Crema has integration of Storybook to write the
-          story with Material-UI
+          Presenting Crema, the all in one package which uses React Hooks to
+          write components more intuitively without using classes. Crema is
+          purely based on Material UI components and follows Google’s Material
+          Design guidelines. It is integrated with Redux and Context API for
+          state management hence making it fast and reliable. It is fully RTL
+          supported and multi-lingual. It uses fake API creator
+          ‘axios-mock-adaptor’ to fetch Data hence making it very easy to
+          integrate with real Server. Crema has integration of Storybook to
+          write the story with Material-UI
         </div>
-        <Box mt={4}>
-         <strong>Todo Title :--- </strong>
-           Title
-        </Box>
       </main>
-      <Box className={"footer"}>
-        <Box
-          className='footerContainer'
-          alignItems='center'
-          flexDirection='row'
-          display='flex'>
-          <Box>Copy right @crema 2020</Box>
-          <Box ml='auto'>
-            <Button color='primary'>
-              Buy Now
-            </Button>
-          </Box>
-        </Box>
-      </Box>
     </div>
   );
 }

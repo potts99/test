@@ -7,24 +7,15 @@ import SecondaryColorPicker from './SecondaryColorPicker';
 import IconButton from '@material-ui/core/IconButton';
 import Drawer from '@material-ui/core/Drawer';
 import SidebarColorPicker from './SidebarColorPicker';
-import FormControl from '@material-ui/core/FormControl';
-import InputLabel from '@material-ui/core/InputLabel';
-import Select from '@material-ui/core/Select';
-import MenuItem from '@material-ui/core/MenuItem';
-import Switch from '@material-ui/core/Switch';
-import {layoutTypes, navStyles} from '../../services/db/navigationStyle';
 import clsx from 'clsx';
 import {Scrollbar} from '../../index';
 import Box from '@material-ui/core/Box';
 import IntlMessages from '../../utility/IntlMessages';
 import useStyles from './index.style';
-import CheckIcon from '@material-ui/icons/Check';
 import themeColorSets from '../../../shared/constants/ColorSets';
 import CustomColorCell from './CustomColorCell';
 import {
-  FooterType,
   LayoutType,
-  RouteTransition,
   ThemeMode,
   ThemeStyle,
 } from '../../../shared/constants/AppEnums';
@@ -38,19 +29,8 @@ const ThemeSetting = (props) => {
     themeStyle,
     updateThemeStyle,
     updateTheme,
-    footer,
-    footerType,
-    setFooter,
-    setFooterType,
     theme,
-    isRTL,
-    setRTL,
-    rtAnim,
-    changeRTAnim,
-    navStyle,
     layoutType,
-    updateLayoutStyle,
-    changeNavStyle,
   } = useContext(AppContext);
   const onStyleChange = (event, themeStyle) => {
     if (themeStyle) updateThemeStyle(themeStyle);
@@ -64,16 +44,6 @@ const ThemeSetting = (props) => {
     if (color) setThemeColor(color);
   };
 
-  const onLayoutChange = (layoutType) => {
-    updateLayoutStyle(layoutType);
-  };
-  const onNavStyleChange = (navStyle) => {
-    changeNavStyle(navStyle);
-  };
-
-  const onChangeRtlSetting = (event) => {
-    setRTL(event.target.checked);
-  };
   const updateThemeColors = (colorSet) => {
     theme.palette.primary.main = colorSet.PrimaryColor;
     theme.palette.secondary.main = colorSet.SecondaryColor;
