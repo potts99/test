@@ -35,7 +35,6 @@ const useStyles = makeStyles((theme) => ({
       borderBottomLeftRadius: 80,
       marginRight: "auto",
       marginLeft: "auto",
-      backgroundColor: theme.palette.primary.main
     }
   },
   textUppercase: {
@@ -50,8 +49,8 @@ const Signup = (props) => {
       <Box mb={{ xs: 6, md: 8, xl: 18 }} textAlign='center'>
         <img
           className={classes.imgRoot}
-          src={"/images/logo-white-with-name.png"}
-          alt='crema-logo'
+          src={"/logo_white.svg"}
+          alt='logo'
         />
       </Box>
 
