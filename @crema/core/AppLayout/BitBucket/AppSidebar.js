@@ -33,6 +33,7 @@ const AppSidebar = (props) => {
     return (
       <Box className={clsx(classes.bitBucketSidebar, 'bit-bucket-sidebar')}>
         <Box
+          style={{zIndex: 1000, marginRight: 3}}
           className={classes.bitBucketBtn}
           onClick={() => setCollapsed(!isCollapsed)}>
           {isCollapsed ? <NavigateNextIcon /> : <NavigateBeforeIcon />}

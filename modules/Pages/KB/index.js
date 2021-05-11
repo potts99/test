@@ -53,7 +53,8 @@ const KnowledgeBase = () => {
   const classes = useStyles();
 
   return (
-    <AppAnimate animation='transition.slideUpIn' delay={200}>
+    <div style={{ padding: 30 }}>
+      <AppAnimate animation='transition.slideUpIn' delay={200}>
       <Box flex={1}>
         <Box mx='auto' textAlign='center' maxWidth={768}>
           <Box
@@ -91,6 +92,7 @@ const KnowledgeBase = () => {
         <Installation installationQueries={installationQueries} />
       </Box>
     </AppAnimate>
+    </div>
   );
 };
 
