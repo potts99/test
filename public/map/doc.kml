@@ -7,7 +7,7 @@
       <IconStyle>
         <scale>1</scale>
         <Icon>
-          <href>images/icon-1.png</href>
+          <href>http://maps.google.com/mapfiles/kml/pal4/icon28.png</href>
         </Icon>
         <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
       </IconStyle>
