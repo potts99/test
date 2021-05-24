@@ -45,11 +45,6 @@ const PageOne = () => {
               attribution='&copy;'
               url='https://api.os.uk/maps/raster/v1/zxy//Light_3857/{z}/{x}/{y}.png?key=JsKqrEYFTFOD7Y3jXGS4dpSMC1e0h8if'
             />
-            <Marker position={[51.505, -0.09]}>
-              <Popup>
-                A pretty CSS3 popup. <br /> Easily customizable.
-              </Popup>
-            </Marker>
             {kml && <ReactLeafletKml kml={kml} />}
           </MapContainer>
         </div>
