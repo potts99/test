@@ -85,6 +85,7 @@
     "react-images": "^1.1.7",
     "react-intl": "^5.8.8",
     "react-leaflet": "^3.1.0",
+    "react-leaflet-kml": "^2.0.2",
     "react-notifications-component": "^2.4.1",
     "react-number-format": "^4.4.1",
     "react-perfect-scrollbar": "^1.5.8",
