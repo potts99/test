@@ -33,6 +33,51 @@
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
+    <Style id="icon-1899-0288D1-nodesc-4G">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/paddle/4.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-nodesc-5G">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/paddle/5.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-nodesc-wifi">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>https://mapicons.mapsmarker.com/wp-content/uploads/mapicons/shape-default/color-3875d7/shapecolor-color/shadow-1/border-dark/symbolstyle-white/symbolshadowstyle-dark/gradient-no/wi-fi-2.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
     <StyleMap id="icon-1899-0288D1-nodesc">
       <Pair>
         <key>normal</key>
@@ -48,7 +93,7 @@
       <Placemark>
         <name>4G
       </name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <styleUrl>#icon-1899-0288D1-nodesc-4G</styleUrl>
         <Point>
           <coordinates>
             -2.320615,53.4772271,0
@@ -57,7 +102,7 @@
       </Placemark>
       <Placemark>
         <name>4G</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <styleUrl>#icon-1899-0288D1-nodesc-4G</styleUrl>
         <Point>
           <coordinates>
             -2.2989857,53.4788617,0
@@ -66,7 +111,7 @@
       </Placemark>
       <Placemark>
         <name>4G</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <styleUrl>#icon-1899-0288D1-nodesc-4G</styleUrl>
         <Point>
           <coordinates>
             -2.2926342,53.4734831,0
@@ -75,7 +120,7 @@
       </Placemark>
       <Placemark>
         <name>4G</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <styleUrl>#icon-1899-0288D1-nodesc-4G</styleUrl>
         <Point>
           <coordinates>
             -2.3055088,53.4755265,0
@@ -84,7 +129,7 @@
       </Placemark>
       <Placemark>
         <name>4G</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <styleUrl>#icon-1899-0288D1-nodesc-4G</styleUrl>
         <Point>
           <coordinates>
             -2.310487,53.4748624,0
@@ -93,7 +138,7 @@
       </Placemark>
       <Placemark>
         <name>4G</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <styleUrl>#icon-1899-0288D1-nodesc-4G</styleUrl>
         <Point>
           <coordinates>
             -2.3126328,53.4718994,0
@@ -129,7 +174,7 @@
       </Placemark>
       <Placemark>
         <name>4G</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <styleUrl>#icon-1899-0288D1-nodesc-4G</styleUrl>
         <Point>
           <coordinates>
             -2.2923617,53.4707033,0
@@ -138,7 +183,7 @@
       </Placemark>
       <Placemark>
         <name>5G</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <styleUrl>#icon-1899-0288D1-nodesc-5G</styleUrl>
         <Point>
           <coordinates>
             -2.2975974,53.4721848,0
@@ -147,7 +192,7 @@
       </Placemark>
       <Placemark>
         <name>4G</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <styleUrl>#icon-1899-0288D1-nodesc-4G</styleUrl>
         <Point>
           <coordinates>
             -2.2854523,53.4726702,0
@@ -156,7 +201,7 @@
       </Placemark>
       <Placemark>
         <name>4G</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <styleUrl>#icon-1899-0288D1-nodesc-4G</styleUrl>
         <Point>
           <coordinates>
             -2.2878985,53.4695282,0
@@ -168,7 +213,7 @@
       <name>WiFi</name>
       <Placemark>
         <name>Point 1</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <styleUrl>#icon-1899-0288D1-nodesc-wifi</styleUrl>
         <Point>
           <coordinates>
             -2.3004921,53.4726575,0
@@ -177,7 +222,7 @@
       </Placemark>
       <Placemark>
         <name>Point 2</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <styleUrl>#icon-1899-0288D1-nodesc-wifi</styleUrl>
         <Point>
           <coordinates>
             -2.3007335,53.4727788,0
@@ -186,7 +231,7 @@
       </Placemark>
       <Placemark>
         <name>Point 3</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <styleUrl>#icon-1899-0288D1-nodesc-wifi</styleUrl>
         <Point>
           <coordinates>
             -2.3003017,53.4726607,0
@@ -195,7 +240,7 @@
       </Placemark>
       <Placemark>
         <name>Point 4</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <styleUrl>#icon-1899-0288D1-nodesc-wific</styleUrl>
         <Point>
           <coordinates>
             -2.3000817,53.4724004,0
@@ -204,7 +249,7 @@
       </Placemark>
       <Placemark>
         <name>Point 5</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <styleUrl>#icon-1899-0288D1-nodesc-wifi</styleUrl>
         <Point>
           <coordinates>
             -2.3006074,53.4727149,0
@@ -213,7 +258,7 @@
       </Placemark>
       <Placemark>
         <name>Point 6</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <styleUrl>#icon-1899-0288D1-nodesc-wifi</styleUrl>
         <Point>
           <coordinates>
             -2.3001434,53.4726255,0
@@ -222,7 +267,7 @@
       </Placemark>
       <Placemark>
         <name>Point 7</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <styleUrl>#icon-1899-0288D1-nodesc-wifi</styleUrl>
         <Point>
           <coordinates>
             -2.299396,53.4722917,0
@@ -231,7 +276,7 @@
       </Placemark>
       <Placemark>
         <name>Point 8</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <styleUrl>#icon-1899-0288D1-nodesc-wifi</styleUrl>
         <Point>
           <coordinates>
             -2.2986235,53.4726972,0
@@ -240,7 +285,7 @@
       </Placemark>
       <Placemark>
         <name>Point 9</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <styleUrl>#icon-1899-0288D1-nodesc-wifi</styleUrl>
         <Point>
           <coordinates>
             -2.3008368,53.4728356,0
@@ -249,7 +294,7 @@
       </Placemark>
       <Placemark>
         <name>Point 10</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <styleUrl>#icon-1899-0288D1-nodesc-wifi</styleUrl>
         <Point>
           <coordinates>
             -2.3003849,53.4726089,0
