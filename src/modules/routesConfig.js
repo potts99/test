@@ -14,6 +14,13 @@ const routesConfig = [
         url: '/map',
       },
       {
+        id: 'page-4',
+        title: 'Page -4',
+        messageId: 'Devices',
+        type: 'item',
+        url: '/devices',
+      },
+      {
         id: 'page-2',
         title: 'Page -2',
         messageId: 'About',

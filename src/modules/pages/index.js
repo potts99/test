@@ -28,4 +28,13 @@ export const samplePagesConfig = [
       },
     ],
   },
+  {
+    auth: ['user'],
+    routes: [
+      {
+        path: '/devices',
+        component: React.lazy(() => import('./Pages/devices/index')),
+      },
+    ],
+  },
 ];
