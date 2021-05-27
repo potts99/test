@@ -18,11 +18,11 @@
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <Style id="icon-1899-0288D1-nodesc-highlight">
+    <Style id="icon-1899-0288D1-nodesc-3G">
       <IconStyle>
         <scale>1</scale>
         <Icon>
-          <href>images/icon-1.png</href>
+          <href>https://maps.google.com/mapfiles/kml/shapes/phone.png</href>
         </Icon>
         <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
       </IconStyle>
@@ -102,7 +102,7 @@
       </Placemark>
       <Placemark>
         <name>3G</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <styleUrl>#icon-1899-0288D1-nodesc-3G</styleUrl>
         <Point>
           <coordinates>
             -2.3557477,53.4876316,0
@@ -111,7 +111,7 @@
       </Placemark>
       <Placemark>
         <name>3G</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <styleUrl>#icon-1899-0288D1-nodesc-3G</styleUrl>
         <Point>
           <coordinates>
             -2.3299985,53.5384657,0
@@ -120,7 +120,7 @@
       </Placemark>
       <Placemark>
         <name>3G</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <styleUrl>#icon-1899-0288D1-nodesc-3G</styleUrl>
         <Point>
           <coordinates>
             -2.4642377,53.4518682,0
