@@ -7,7 +7,7 @@
       <IconStyle>
         <scale>1</scale>
         <Icon>
-          <href>http://maps.google.com/mapfiles/kml/pal4/icon28.png</href>
+          <href>https://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href>
         </Icon>
         <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
       </IconStyle>
@@ -47,7 +47,7 @@
       <name>Cell Towers</name>
       <Placemark>
         <name>4G
-</name>
+      </name>
         <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
         <Point>
           <coordinates>

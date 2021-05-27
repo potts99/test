@@ -1,5 +1,5 @@
 import * as React from 'react';
-import {MapContainer, TileLayer} from 'react-leaflet';
+import {LayersControl, MapContainer, TileLayer} from 'react-leaflet';
 import ReactLeafletKml from 'react-leaflet-kml';
 
 // import 'leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css';
@@ -12,7 +12,7 @@ const PageOne = () => {
 
   React.useEffect(() => {
     fetch(
-      'https://raw.githubusercontent.com/potts99/test/main/public/map/doc.kml',
+      'https://raw.githubusercontent.com/potts99/test/main/src/modules/pages/Pages/Map.kml',
       {},
     )
       .then((res) => res.text())
@@ -30,11 +30,21 @@ const PageOne = () => {
         style={{height: '100vh', width: '100%'}}
         zoom={17}
         center={[53.4725, -2.2989]}>
-        <TileLayer
-          className='grayscaleInvert'
-          url='https://api.os.uk/maps/raster/v1/zxy//Light_3857/{z}/{x}/{y}.png?key=JsKqrEYFTFOD7Y3jXGS4dpSMC1e0h8if'
-          attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-        />
+        <LayersControl position='topright'>
+          <LayersControl.BaseLayer checked name='Dark'>
+            <TileLayer
+              className='grayscaleInvert'
+              url='https://api.os.uk/maps/raster/v1/zxy//Light_3857/{z}/{x}/{y}.png?key=JsKqrEYFTFOD7Y3jXGS4dpSMC1e0h8if'
+              attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+            />
+            <LayersControl.BaseLayer name='Light'>
+              <TileLayer
+                attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+                url='https://api.os.uk/maps/raster/v1/zxy//Light_3857/{z}/{x}/{y}.png?key=JsKqrEYFTFOD7Y3jXGS4dpSMC1e0h8if'
+              />
+            </LayersControl.BaseLayer>
+          </LayersControl.BaseLayer>
+        </LayersControl>
         {kml && <ReactLeafletKml kml={kml} />}
       </MapContainer>
     </div>
