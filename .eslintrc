@@ -1,26 +1,36 @@
 {
   "env": {
     "browser": true,
-    "commonjs": true,
     "es6": true,
     "node": true
   },
-  "plugins": [
-    "react",
-    "react-hooks"
+  "extends": [
+    "eslint:recommended",
+    "react-app",
+    "prettier",
+    "prettier/react",
+    "plugin:prettier/recommended"
   ],
-  "extends": ["eslint:recommended", "plugin:react/recommended", "plugin:prettier/recommended"],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parser": "babel-eslint",
   "parserOptions": {
     "sourceType": "module",
-    "ecmaVersion": 2018
+    "allowImportExportEverywhere": false,
+    "codeFrame": false
   },
-  "settings": {
-    "react": {
-      "version": "detect"
-    }
-  },
+  "plugins": [
+    "react",
+    "prettier",
+    "react-hooks"
+  ],
   "rules": {
-    "linebreak-style": ["error", "unix"],
+    "prettier/prettier": "error",
+    "no-case-declarations": "off",
+    "no-eval": "error",
+    "import/first": "error",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn"
   }

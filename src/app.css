@@ -1,0 +1,3 @@
+.grayscaleInvert {
+    filter: grayscale(100%) invert(1);
+  }
