@@ -298,7 +298,7 @@ const cryptoData = {
       news:
         'Power Ledger’s Jemma Green Is Fighting Climate Change by Helping Trade Neighbors Energy. Binance Coin Spikes Almost 20 Percent as...',
       created: '16 mins',
-      image: 'https://via.placeholder.com/540x300tcoin1.png',
+      image: 'https://via.placeholder.com/200x100',
       by: 'BTC EHTD USD',
     },
     {

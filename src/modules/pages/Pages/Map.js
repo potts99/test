@@ -12,7 +12,8 @@ const PageOne = () => {
 
   React.useEffect(() => {
     fetch(
-      'https://raw.githubusercontent.com/potts99/test/main/public/map/doc.kml?token=AK5DYX2ENZF2P2EXL74T3JLAV5KZY',
+      'https://raw.githubusercontent.com/potts99/test/main/public/map/doc.kml',
+      {},
     )
       .then((res) => res.text())
       .then((kmlText) => {
@@ -28,10 +29,9 @@ const PageOne = () => {
       <MapContainer
         style={{height: '100vh', width: '100%'}}
         zoom={17}
-        center={[53.4725, -2.2989]}
-        className='grayscaleInvert'
-        >
+        center={[53.4725, -2.2989]}>
         <TileLayer
+          className='grayscaleInvert'
           url='https://api.os.uk/maps/raster/v1/zxy//Light_3857/{z}/{x}/{y}.png?key=JsKqrEYFTFOD7Y3jXGS4dpSMC1e0h8if'
           attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
         />

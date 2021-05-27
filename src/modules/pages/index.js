@@ -14,8 +14,17 @@ export const samplePagesConfig = [
     auth: ['user'],
     routes: [
       {
-        path: '/sample/page-2',
-        component: React.lazy(() => import('./Pages/PageTwo')),
+        path: '/about',
+        component: React.lazy(() => import('./Pages/About')),
+      },
+    ],
+  },
+  {
+    auth: ['user'],
+    routes: [
+      {
+        path: '/kb',
+        component: React.lazy(() => import('./Pages/KnowledgeBase/index')),
       },
     ],
   },
