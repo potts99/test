@@ -10,6 +10,11 @@ import 'leaflet/dist/leaflet.css';
 const PageOne = () => {
   const [kml, setKml] = React.useState(null);
 
+  const innerBounds = [
+    [60.505, -13.09],
+    [49.505, 3.09],
+  ];
+
   React.useEffect(() => {
     fetch(
       'https://raw.githubusercontent.com/potts99/test/main/src/modules/pages/Pages/Map.kml',
@@ -29,7 +34,8 @@ const PageOne = () => {
       <MapContainer
         style={{height: '100vh', width: '100%'}}
         zoom={17}
-        center={[53.4725, -2.2989]}>
+        center={[53.4725, -2.2989]}
+        bounds={innerBounds}>
         <LayersControl position='topright'>
           <LayersControl.BaseLayer checked name='Dark'>
             <TileLayer

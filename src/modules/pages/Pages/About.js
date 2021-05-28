@@ -2,24 +2,22 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div className=''>
+    <div style={{padding: 40}}>
       <main className=''>
-        <h1 className=''>
-          Welcome to <a href='https://nextjs.org'>Crema Next.js</a>
-        </h1>
-
-        <p className=''>Get started by editing pages/about-us.js</p>
+        <h1 className=''>Welcome to a blank page</h1>
 
         <div className=''>
-          Presenting Crema, the all in one package which uses React Hooks to
-          write components more intuitively without using classes. Crema is
-          purely based on Material UI components and follows Google’s Material
-          Design guidelines. It is integrated with Redux and Context API for
-          state management hence making it fast and reliable. It is fully RTL
-          supported and multi-lingual. It uses fake API creator
-          ‘axios-mock-adaptor’ to fetch Data hence making it very easy to
-          integrate with real Server. Crema has integration of Storybook to
-          write the story with Material-UI
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+          pellentesque semper pretium. In hac habitasse platea dictumst. Aliquam
+          pretium nibh euismod scelerisque commodo. Interdum et malesuada fames
+          ac ante ipsum primis in faucibus. Mauris et tristique ex. Morbi in
+          ligula eget ex fringilla pharetra vitae rutrum enim. Aenean
+          ullamcorper mattis nunc vel pharetra. Vestibulum luctus mi vel justo
+          facilisis, nec blandit velit semper. Curabitur pellentesque nec erat
+          tristique sodales. Nullam sed velit eu quam varius auctor eget
+          malesuada leo. Aenean ipsum mi, elementum vitae tellus sed, rutrum
+          molestie lacus. Sed non facilisis ligula. Ut dictum lorem libero, et
+          fermentum erat ornare pulvinar
         </div>
       </main>
     </div>

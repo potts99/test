@@ -7,11 +7,13 @@ import ProductsSidebar from './ProductsSidebar';
 const Products = () => {
   const {messages} = useIntl();
   return (
-    <AppsContainer
-      title={messages['sidebar.ecommerce.products']}
-      sidebarContent={<ProductsSidebar />}>
-      <ProductListing />
-    </AppsContainer>
+    <div style={{padding: 30}}>
+      <AppsContainer
+        title={messages['sidebar.ecommerce.products']}
+        sidebarContent={<ProductsSidebar />}>
+        <ProductListing />
+      </AppsContainer>
+    </div>
   );
 };
 
