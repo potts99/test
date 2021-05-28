@@ -115,7 +115,7 @@ const UserInfo = (props) => {
             alignItems='center'
             justifyContent='space-between'>
             <Box mb={0} className={clsx(classes.userName)}>
-              {user.displayName ? user.displayName : 'Admin User '}
+              <p>Admin</p>
             </Box>
             <Box
               ml={3}
