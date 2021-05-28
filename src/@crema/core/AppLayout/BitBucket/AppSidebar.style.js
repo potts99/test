@@ -51,12 +51,12 @@ const useStyles = makeStyles((theme) => {
     bitBucketBtn: {
       position: 'absolute',
       top: 20,
-      right: '-12px',
+      right: '-9px',
       borderRadius: '50%',
       backgroundColor: theme.palette.primary.main,
       color: theme.palette.primary.contrastText,
       cursor: 'pointer',
-      zIndex: 9,
+      zIndex: 1000,
       display: 'none',
 
       [theme.breakpoints.up('lg')]: {
